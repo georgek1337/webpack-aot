@@ -1,0 +1,55 @@
+
+
+<button routerLink="">Home</button>
+<button routerLink="/orders">Orders</button>
+<button routerLink="/books">Books</button>
+<router-outlet></router-outlet>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="100px" height="100px" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<div>
+    Strong visual design has always been our focus. You are modifying this page, so strong CSS skills are necessary too, but the example files are commented well enough that even CSS novices can use them as starting points. Please see the CSS Resource Guide for advanced tutorials and tips on working with CSS.
+
+    You may modify the style sheet in any way you wish, but not the HTML. This may seem daunting at first if you’ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.
+    
+    Download the sample HTML and CSS to work on a copy locally. Once you have completed your masterpiece (and please, don’t submit half-finished work) upload your CSS file to a web server under your control. Send us a link to an archive of that file and all associated assets, and if we choose to use it we will download it and place it on our server.
+    Benefits
+Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing CSS really can be. This site serves as equal parts inspiration for those working on the web today, learning tool for those who will be tomorrow, and gallery of future techniques we can all look forward to.
+  <div class="container-fluid" style="overflow:scroll;height:500px;width:800px; margin:50px;">	
+    <div>
+        Luckily, designing this way shows how well various browsers have implemented CSS by now. When sticking to the guidelines you should see fairly consistent results across most modern browsers. Due to the sheer number of user agents on the web these days — especially when you factor in mobile — pixel-perfect layouts may not be possible across every platform. That’s okay, but do test in as many as you can. Your design should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over 90% of the population).
+        We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material to a minimum, and try to incorporate unique and interesting visual themes to your work. We’re well past the point of needing another garden-related design.
+
+This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions, see submission guidelines), but we ask you release your CSS under a Creative Commons license identical to the one on this site so that others may learn from your work.
+
+By Dave Shea. Bandwidth graciously donated by mediatemple. Now available: Zen Garden, the book.
+    </div>
+    
+    <div class="container" style="overflow:scroll;height:160px;width:auto; margin:50px;">	
+      
+        <div class="row" *ngFor="let customer of custArray;">
+            <div class="col-sm-4">
+              <div>{{customer.Name}}</div>
+            </div>
+            <div class="col-sm-4">
+                <div>{{customer.Address}}</div>
+            </div>
+            <div class="col-sm-4">
+                <div>{{customer.Age}}</div>
+            </div>
+      </div>
+  </div>
+  What is Lorem Ipsum?
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
+  galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+  with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+  software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
+
+According to Latin professor Richard McClintock — the man credited with discovering Lorem Ipsum's roots — it is likely that sometime during the middle ages a typesetter scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. But that was just the beginning.
